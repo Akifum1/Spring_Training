@@ -1,10 +1,8 @@
 num = 0
-for num in range(1,101,1):
-    if (num % 3 == 0):
-        print("aho!,",end="")
-    elif (num % 10 == 3):
-        print("aho!,",end="")
-    elif (num //10 == 3):
-        print("aho!,",end="")
+for num in range(1, 151):
+    if (num % 3 == 0): #３の倍数
+        print("aho!")
+    elif "3" in str(num):
+        print("aho!")
     else:
-        print(str(num) + ",",end="")
+        print(str(num))
